@@ -1,0 +1,67 @@
+# 数据文件（敏感信息）
+data.csv
+*.csv
+
+# 开发用未加密数据
+public/data/network.dev.json
+
+# 元数据（可选，仅供本地参考）
+public/data/metadata.json
+
+# 旧的未压缩文件（已改用 gzip）
+public/data/network.enc.json
+
+# 处理脚本和文档（不公开）
+process_data.py
+crypto_utils.py
+id_card_utils.py
+README.md
+QUICKSTART.md
+requirements.txt
+quick_build.bat
+run.bat
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 环境变量和配置
+.env
+.env.local
+config.py
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+*.bak
