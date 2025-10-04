@@ -13,6 +13,7 @@ public/data/network.enc.json
 public/data/network.enc.json.br
 
 # 处理脚本和文档（不公开）
+process_data.py
 crypto_utils.py
 id_card_utils.py
 README.md
